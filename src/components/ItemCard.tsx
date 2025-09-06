@@ -22,12 +22,12 @@ export default function ItemCard(props: ItemCardProps) {
              />
 
             {/* Item Name */}
-            <h2 className="font-bold font-poppins p-2 text-[2rem]">{props.ItemName}</h2>
+            <h2 className="text-black font-bold font-poppins p-2 text-[2rem]">{props.ItemName}</h2>
 
             {/* Item Price and Order Now Button Container */}
             <div className="flex box-border justify-between items-center px-3">
                 <span className="text-[#815454] font-poppins">{props.ItemPrice}</span>
-                <Link className="font-bold font-poppins bg-[#815454] rounded-[25px] p-1 hover:bg-[#663f3f] " href="#">Order Now</Link>
+                <Link className="text-black font-bold font-poppins bg-[#815454] rounded-[25px] p-1 hover:bg-[#663f3f] " href="#">Order Now</Link>
             </div>
         </div>
     </>
