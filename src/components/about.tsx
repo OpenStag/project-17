@@ -1,17 +1,19 @@
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#b6a3a3] text-white px-6 py-12">
+    <div className="min-h-screen w-full flex flex-col md:flex-row items-center justify-center bg-[#b6a3a3] text-white px-6 py-12 overflow-x-hidden">
       
-      {/* Left Side - Video */}
-      <div className="flex-1 flex justify-center">
-        <iframe
-          className="w-full max-w-[535px] h-[300px] md:h-[315px] rounded-xl shadow-lg"
-          src="https://www.youtube-nocookie.com/embed/Nu8kIIL-CDA?autoplay=1&mute=1&controls=0&loop=1&playlist=Nu8kIIL-CDA"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-        ></iframe>
+      {/* Left Side - Responsive Video */}
+      <div className="flex-1 flex justify-center w-full max-w-full overflow-hidden">
+        <div className="relative w-full max-w-[535px] aspect-video">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full rounded-xl shadow-lg"
+            src="https://www.youtube-nocookie.com/embed/Nu8kIIL-CDA?autoplay=1&mute=1&controls=0&loop=1&playlist=Nu8kIIL-CDA"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
       </div>
 
       {/* Right Side - Text */}
