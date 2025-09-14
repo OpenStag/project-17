@@ -11,6 +11,8 @@ export default function Home() {
     <About/>
     {/* <ProductExplorer/>   */}
     <HomeComponent/>
+       {/* <About/>   */}
+    <About/>
     <ProductExplorer/>
     
    </>
