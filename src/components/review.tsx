@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "use client";
 import { useState } from "react";
 
@@ -134,6 +134,3 @@ export default function Review() {
     </section>
   );
 }
-=======
-hjhgjhgj
->>>>>>> 43420100ffc860a846eafcf8c8ba4fca2477ee69
