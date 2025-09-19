@@ -14,8 +14,11 @@ export default function Home() {
        {/* <About/>   */}
     <About/>
     <ProductExplorer/>
+<<<<<<< HEAD
     <Review />
     
+=======
+>>>>>>> 43420100ffc860a846eafcf8c8ba4fca2477ee69
    </>
   );
 }

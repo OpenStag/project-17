@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 import { useState } from "react";
 
@@ -39,7 +40,7 @@ export default function Review() {
       review:
         "Best coffee spot in town! Cozy atmosphere and the desserts are delicious.",
     },
-    // ❌ Removed extra reviews (only 6 kept)
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -133,3 +134,6 @@ export default function Review() {
     </section>
   );
 }
+=======
+hjhgjhgj
+>>>>>>> 43420100ffc860a846eafcf8c8ba4fca2477ee69
